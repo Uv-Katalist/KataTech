@@ -27,6 +27,7 @@ a{
     background-repeat: no-repeat;
     background-size: 1350px;
     background-position: right bottom;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
