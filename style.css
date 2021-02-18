@@ -636,6 +636,20 @@ abbr{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+#status{
+    width:90%;
+    max-width:500px;
+    text-align:center;
+    padding:10px;
+    margin:0 auto;
+    border-radius:8px;
+}
+#status.succes{
+    background-color:#070255;
+}
+#status.error{
+    background-color:#12ccda;
+}
 @media(max-width:1190px){
     #main{
         background-size: 1150px;
