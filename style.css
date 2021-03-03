@@ -92,7 +92,7 @@ nav{
     color: #000000;
 }
 .cv-btn{
-    width: 160px;
+    width: 100px;
     height: 45px;
     display: flex;
     justify-content: center;
@@ -354,18 +354,20 @@ nav{
     background-color: #0802556e;
     display: none;
 }
-.text-overlay h1,p{
+.text-overlay h1,a{
     color: #ffffff;
 }
 .text-overlay h1{
-    font-size: 2.2rem;
+    font-size: 18px;
     margin: 0px;
     padding: 0px;
     letter-spacing: 2px;
+    text-align: center;
 }
-.text-overlay p{
-    font-size: 1.2rem;
+.text-overlay a{
+    font-size: 13px;
     margin: 0px;
+    color: #550202;
 }
 .p-box:hover .text-overlay{
     display: flex;
